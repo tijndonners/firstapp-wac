@@ -20,4 +20,3 @@ function calculate() {
 function clean() {
 	document.getElementById("display").innerHTML = "";
 	}
-

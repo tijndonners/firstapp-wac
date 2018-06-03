@@ -1,0 +1,76 @@
+body {
+	background-color: #e2d7c5;	
+}
+
+
+h3 {
+	background-color: #9b8c74;
+	color: white;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top:3px;
+}
+
+#myLocation {
+	display: block;
+}
+
+#locationresults {
+	float: left;
+}
+
+#locprefix {
+	float: left;
+	margin-right: 75px;	
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#weatherInfo {
+	clear: left;
+	display: block;
+}
+
+#weatherresults {
+	float: left;
+	
+}
+
+#weatherprefix {
+	float: left;
+	margin-right: 75px;	
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#vacationtitle {
+	clear:left;
+	display:block;
+}
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#table td, #table th {
+    border: 1px solid #9b8c74;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #9b8c74;
+	color:white;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #9b8c74;
+    color: white;
+}
