@@ -3,6 +3,8 @@
 <title>Les 5</title>
 <head>
 <link rel="stylesheet" type="text/css" href="Les5.css">
+<link rel="stylesheet" media="only screen and (max-width: 500px)" href="mobile.css"/>
+<link rel="stylesheet" media="only screen and (min-width: 500px)" href="wide.css"/>
 </head>
 <body>
 	<div id="frame">
@@ -51,7 +53,9 @@
 		</div>
 
 		<div id="countryList">
+			
 			<h3 id="vacationtitle">Beschikbare vakantiebestemmingen</h3>
+			<button onclick="clearLocalStorage()">clear</button>
 			<table id="table">
 				<tr>
 					<th>Land</th>
@@ -60,7 +64,7 @@
 					<th>Oppervlakte</th>
 					<th>Inwoners</th>
 				</tr>
-				
+
 			</table>
 		</div>
 	</div>

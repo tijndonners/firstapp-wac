@@ -1,0 +1,12 @@
+
+
+#frame {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  grid-gap:.5em;
+}
+
+#myLocation   	{ grid-column: 1;   grid-row: 1;   }
+#weatherInfo	{ grid-column: 2;   grid-row: 1;   }
+#countryList	{ grid-column-end: span 2; grid-row: 2;   }

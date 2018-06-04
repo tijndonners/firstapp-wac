@@ -54,6 +54,8 @@ h3 {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
+    white-space: nowrap;
+    
 }
 
 #table td, #table th {
