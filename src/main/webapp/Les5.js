@@ -49,7 +49,7 @@ function showWeather(lat, lon, city) {
 	
 	// alters HTML with weather JSON data
 	document.querySelector("#temp").innerHTML = 
-			parseFloat(window.localStorage.getItem(city+'.main.temp')).toString().substring(0, 4)
+			toCelsius(weather_json.main.temp).toString().substring(0, 4)
 			+ " C";
 	document.querySelector("#lucht").innerHTML = weather_json.main.humidity;
 	document.querySelector("#wind").innerHTML = weather_json.wind.speed;
